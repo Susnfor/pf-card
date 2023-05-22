@@ -1,0 +1,44 @@
+.Main-banner{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    border-radius: 16px;
+    height: 90%;
+    width: 100%;
+}
+
+.Main{
+    /* background-color: grey; */
+    /* padding-top: 5px; */
+    height:20vh;
+    width: 100%;
+}
+
+.Main-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Main img{
+    background-color: grey;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: 5px 10px 15px #1f1f1f;
+}
+
+.Main-typewriter{
+    border: 4px solid yellow;
+    font-size: 3rem;
+
+}
+
+.Main-PP{
+    border: 4px solid green;
+    width: 10%;
+    align-items: center;
+}
