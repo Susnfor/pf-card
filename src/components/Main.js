@@ -7,9 +7,9 @@ function Main() {
       <div className="Main-container">
         <div className="Main-banner">
 
-          <div className="Main-PP">
+          {/* <div className="Main-PP">
             <img src="./hi.png" alt="Profile Picture" />
-          </div>
+          </div> */}
 
           <div className="Main-typewriter">
             <Typewriter
@@ -20,7 +20,7 @@ function Main() {
 
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("I am a")
+                  .typeString("I am a <strong>Job</strong>")
                   .start();
               }}
             />

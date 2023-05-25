@@ -5,10 +5,11 @@
 
 .App {
   text-align: center;
+  color: #ecf0f1;
 }
  
 .App-container{
-  background-color: rgb(48, 48, 48);
+  background-color: #2c3e50;
   min-height: 100vh;
   max-width: 100%;
   padding: 5px 2%;
@@ -19,16 +20,18 @@
   min-height: 100vh;
   max-width: 100%;
   display: flex;
+  margin-top: 5px;
 
 }
 
 .App-left{
-  border: 2px red solid;
+  /* border: 2px red solid; */
   /* flex-grow: 1; */
   width: 28%;
+  margin-right: 10px;
 }
 
 .App-right{
-  border: 2px green solid;
+  /* border: 2px green solid; */
   flex-grow: 3;
 }

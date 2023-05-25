@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Main from './components/Main';
 import Profile from './components/Profile';
 
@@ -13,7 +14,9 @@ function App() {
           <div className="App-left">
             <Profile />
           </div>
-          <div className='App-right'></div>
+          <div className='App-right'>
+            <About />
+          </div>
 
         </div>
       </div>
