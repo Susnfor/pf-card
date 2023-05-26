@@ -1,3 +1,4 @@
+/* https://flatuicolors.com/palette/defo */
 .Main-banner{
     color: #ecf0f1;
     display: flex;
@@ -11,8 +12,6 @@
 }
 
 .Main{
-    /* background-color: grey; */
-    /* padding-top: 5px; */
     height:20vh;
     width: 100%;
 }
@@ -33,13 +32,11 @@
 }
 
 .Main-typewriter{
-    /* border: 4px solid yellow; */
     font-size: 3rem;
 
 }
 
 .Main-PP{
-    /* border: 4px solid green; */
     width: 10%;
     align-items: center;
 }
