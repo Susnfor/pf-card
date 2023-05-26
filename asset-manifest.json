@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pf-card/static/css/main.abf2a65a.css",
+    "main.js": "/pf-card/static/js/main.d25fc6fd.js",
+    "index.html": "/pf-card/index.html",
+    "main.abf2a65a.css.map": "/pf-card/static/css/main.abf2a65a.css.map",
+    "main.d25fc6fd.js.map": "/pf-card/static/js/main.d25fc6fd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abf2a65a.css",
+    "static/js/main.d25fc6fd.js"
+  ]
+}
