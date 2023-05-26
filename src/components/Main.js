@@ -7,20 +7,17 @@ function Main() {
       <div className="Main-container">
         <div className="Main-banner">
 
-          {/* <div className="Main-PP">
-            <img src="./hi.png" alt="Profile Picture" />
-          </div> */}
 
           <div className="Main-typewriter">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
 
-                  .typeString("Welcome")
+                  .typeString(`Welcome, I'm <strong>Yash</strong>`)
 
                   .pauseFor(1000)
                   .deleteAll()
-                  .typeString("I am a <strong>Job</strong>")
+                  .typeString("And I am a <strong>Graphics Designer</strong>")
                   .start();
               }}
             />

@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Profile.css'
 import Items from './Items'
 import { faEnvelope, faPhone, faBlog, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Profile = () => {
   return (
@@ -14,9 +15,11 @@ const Profile = () => {
         </div>
       </div>
       <div>
-        <Items method="Email" detail="hi@gmail.com" icons={faEnvelope} />
+        <Items method="Email" detail="hi@hotmail.com" icons={faEnvelope} />
         <Items method="Phone" detail="+44123" icons={faPhone} />
         <Items method="Website" detail="google.com" icons={faBlog} />
+        <Items method="LinkedIn" detail="firstname.surname" icons={faLinkedin} />
+        <Items method="Github" detail="susnfor" icons={faGithub} />
         <Items method="Location" detail="London" icons={faLocationDot} />
       </div>
 

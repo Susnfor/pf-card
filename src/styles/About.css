@@ -4,35 +4,40 @@
 }
 
 .About-container{
-    height: 100%;
+    min-height: 100%;
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    flex-direction: column;
     border: 4px solid #2980b9;
     background-color: #34495e;
     border-radius: 16px;
-    /* width: 80%; */
 
 }
 .About-banner{
+    margin:10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 80%;
+    margin-bottom: 10%;
 
 }
 
-.About-banner header{
+.About header{
     text-transform: uppercase;
-    /* color: #ecf0f1; */
-    font-weight: bold;
+    font-weight: 900;
     font-size: 2rem;
+    
 }
+
+.About-text{
+    padding: 0% 5%;
+}
+
 .About-banner ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    border: solid green 2px;
 
 }
 
@@ -45,4 +50,27 @@
 a {
     text-decoration: none;
     color: #ecf0f1;
+  }
+.About-skills{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.About-skills header{
+    font-size: 1.5rem;
+}
+.About-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+  @media (max-width: 900px){
+    .About-banner header{
+        font-size: 1.5rem;
+    }
+    .About-banner li{
+        font-size: 1rem;
+    }
   }

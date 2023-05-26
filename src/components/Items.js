@@ -8,7 +8,7 @@ const Items = (props) => {
     <div className="Items-container">
         <div>
           
-          <div className="icon"><FontAwesomeIcon icon={props.icons} /></div>
+          <div className="Items-icon"><FontAwesomeIcon icon={props.icons} /></div>
             <header>{props.method}</header>
             <p>{props.detail}</p>
         </div>
