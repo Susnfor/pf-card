@@ -8,6 +8,7 @@ const Links = () => {
                 <ul>
                     <li><a href="#">Resume</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#">Shop</a></li>
                 </ul>
                 </div>
         </div>

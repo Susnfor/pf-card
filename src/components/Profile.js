@@ -11,14 +11,14 @@ const Profile = () => {
 
       <div className="Profile-banner">
         <div className="Profile-PP">
-        <img src="./pp.png" alt="Profile Picture" />
+        <img src="./pf-card/pp.png" alt="Profile Picture" />
         </div>
       </div>
       <div>
         <Items method="Email" detail="hi@hotmail.com" icons={faEnvelope} />
         <Items method="Phone" detail="+44123" icons={faPhone} />
         <Items method="Website" detail="google.com" icons={faBlog} />
-        <Items method="LinkedIn" detail="firstname.surname" icons={faLinkedin} />
+        <Items method="LinkedIn" detail="first.surname" icons={faLinkedin} />
         <Items method="Github" detail="susnfor" icons={faGithub} />
         <Items method="Location" detail="London" icons={faLocationDot} />
       </div>

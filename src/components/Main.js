@@ -13,7 +13,7 @@ function Main() {
               onInit={(typewriter) => {
                 typewriter
 
-                  .typeString(`Welcome, I'm <strong>Yash</strong>`)
+                  .typeString(`Welcome, I'm <strong>John</strong>`)
 
                   .pauseFor(1000)
                   .deleteAll()
