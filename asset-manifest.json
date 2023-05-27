@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/pf-card/static/css/main.26c70574.css",
-    "main.js": "/pf-card/static/js/main.79875a5b.js",
+    "main.js": "/pf-card/static/js/main.030edac4.js",
     "index.html": "/pf-card/index.html",
     "main.26c70574.css.map": "/pf-card/static/css/main.26c70574.css.map",
-    "main.79875a5b.js.map": "/pf-card/static/js/main.79875a5b.js.map"
+    "main.030edac4.js.map": "/pf-card/static/js/main.030edac4.js.map"
   },
   "entrypoints": [
     "static/css/main.26c70574.css",
-    "static/js/main.79875a5b.js"
+    "static/js/main.030edac4.js"
   ]
 }
