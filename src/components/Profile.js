@@ -11,7 +11,7 @@ const Profile = () => {
 
       <div className="Profile-banner">
         <div className="Profile-PP">
-        <img src="./pf-card/pp.png" alt="Profile Picture" />
+        <img src={process.env.PUBLIC_URL + '/pp.png'} alt="Profile Picture" />
         </div>
       </div>
       <div>
